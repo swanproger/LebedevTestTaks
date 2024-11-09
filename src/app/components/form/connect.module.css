@@ -1,0 +1,84 @@
+.connect {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.title {
+	font-size: 3rem;
+	margin-bottom: 32px;
+}
+
+.formContainer {
+	width: 100%;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 350px;
+}
+
+@media screen and (max-width: 800px) {
+	.form {
+		width: 100%;
+	}
+}
+
+.control {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.connect input,
+.connect textarea {
+	border: 1px solid #eaeaea;
+	border-radius: 12px;
+	outline: none;
+	padding: 12px 8px;
+	font-size: 1rem;
+	transition: border-color 0.3s;
+	box-sizing: border-box;
+}
+
+.connect textarea {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 150px;
+	max-height: 250px;
+}
+
+.connect input:focus,
+.connect input:active,
+.connect textarea:focus,
+.connect textarea:active {
+	border: 1px solid rgb(49, 40, 84);
+}
+
+.connect input.error,
+.connect textarea.error {
+	border: 1px solid red;
+}
+
+.controlError {
+	color: red;
+	font-size: 12px;
+}
+
+.button {
+	background: none;
+	border-radius: 6px;
+	border: 1px solid #eaeaea;
+	padding: 16px;
+	transition: background 0.3s;
+	cursor: pointer;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background: #eaeaea;
+}

@@ -1,0 +1,25 @@
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #eaeaea;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.logo h1 {
+	font-size: 1.5rem;
+}
+
+.button {
+	cursor: pointer;
+}
