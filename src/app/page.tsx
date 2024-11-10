@@ -7,7 +7,7 @@ export default function Home() {
 	return (
 		<Layout>
 			<Preview />
-			<About />тзь 
+			<About />
 			<Contacts />
 		</Layout>
 	);
